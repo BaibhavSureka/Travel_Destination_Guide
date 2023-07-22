@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="book.css" />
+    <title>Book</title>
+</head>
+
+<body>
+    </section>
+    <section class="banner">
+        <div class="banner-text-item">
+            <div class="banner-heading">
+                <h1>Confirm your tour!</h1>
+            </div>
+            <form class="form" onsubmit="return bookTour(event)">
+                <input type="text" list="mylist" placeholder="What's your name?">
+                <input type="date" class="date">
+                <button type="submit" class="book">book</button>
+            </form>
+            <div class="popup" id="popupMessage">Booking done successfully!</div>
+        </div>
+    </section>
+    <script src="book.js"></script>
+</body>
+
+</html>
